@@ -1,5 +1,5 @@
-import "@/app/ui/global.css";
-import { commissioner } from "@/app/ui/fonts";
+import '@/app/ui/global.css';
+import { manrope } from '@/app/ui/fonts';
 export default function RootLayout({
 	children,
 }: {
@@ -7,9 +7,7 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="en">
-			<body className={`${commissioner.className} antialiased`}>
-				{children}
-			</body>
+			<body className={`${manrope.className} antialiased`}>{children}</body>
 		</html>
 	);
 }
